@@ -217,3 +217,21 @@
 .testimonial-carousel .owl-dot.active {
   background: var(--primary);
 }
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.logo img{
+  width: 100px; 
+  height: auto; 
+  max-width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.logo img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7); 
+}
